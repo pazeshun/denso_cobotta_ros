@@ -1,0 +1,6 @@
+<launch>
+  <!-- send cobotta urdf to param server -->
+  <group>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find denso_cobotta_descriptions)/cobotta_description/cobotta.urdf.xacro'" />
+  </group>
+</launch>
