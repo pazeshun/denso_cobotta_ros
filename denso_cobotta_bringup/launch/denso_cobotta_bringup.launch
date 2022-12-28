@@ -40,14 +40,18 @@
   </include>
 
   <!-- Include files for MoveIt! -->
+  <!--
   <include file="$(find denso_cobotta_moveit_config)/launch/move_group.launch">
     <arg name="publish_monitored_planning_scene" value="true" />
     <arg name="gripper_type" value="$(arg gripper_type)"/>
   </include>
+  -->
 
   <!-- Include files for rviz -->
+  <!--
   <include file="$(find denso_cobotta_moveit_config)/launch/moveit_rviz.launch">
     <arg name="config" value="true"/>
   </include>
+  -->
   
 </launch>
